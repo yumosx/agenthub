@@ -6,9 +6,9 @@ import (
 	"os"
 	"strconv"
 
-	"agenthub/internal/auth"
-	"agenthub/internal/db"
-	"agenthub/internal/gitrepo"
+	"github.com/karpathy/agenthub/internal/auth"
+	"github.com/karpathy/agenthub/internal/db"
+	"github.com/karpathy/agenthub/internal/gitrepo"
 )
 
 func (s *Server) handleGitPush(w http.ResponseWriter, r *http.Request) {

@@ -5,8 +5,8 @@ import (
 	"regexp"
 	"strconv"
 
-	"agenthub/internal/auth"
-	"agenthub/internal/db"
+	"github.com/karpathy/agenthub/internal/auth"
+	"github.com/karpathy/agenthub/internal/db"
 )
 
 var channelNameRe = regexp.MustCompile(`^[a-z0-9][a-z0-9_-]{0,30}$`)

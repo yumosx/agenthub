@@ -7,9 +7,9 @@ import (
 	"path/filepath"
 	"time"
 
-	"agenthub/internal/db"
-	"agenthub/internal/gitrepo"
-	"agenthub/internal/server"
+	"github.com/karpathy/agenthub/internal/db"
+	"github.com/karpathy/agenthub/internal/gitrepo"
+	"github.com/karpathy/agenthub/internal/server"
 )
 
 func main() {

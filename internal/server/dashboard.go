@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"time"
 
-	"agenthub/internal/db"
+	"github.com/karpathy/agenthub/internal/db"
 )
 
 type dashboardData struct {

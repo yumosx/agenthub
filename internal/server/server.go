@@ -6,9 +6,9 @@ import (
 	"log"
 	"net/http"
 
-	"agenthub/internal/auth"
-	"agenthub/internal/db"
-	"agenthub/internal/gitrepo"
+	"github.com/karpathy/agenthub/internal/auth"
+	"github.com/karpathy/agenthub/internal/db"
+	"github.com/karpathy/agenthub/internal/gitrepo"
 )
 
 type Config struct {

@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"strings"
 
-	"agenthub/internal/db"
+	"github.com/karpathy/agenthub/internal/db"
 )
 
 type contextKey string
